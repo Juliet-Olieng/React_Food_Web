@@ -175,12 +175,13 @@ const Body =()=>{
             </div>
             {/*  */}
             <div className="container3">
-            <div id="cont4" style={{
-    backgroundImage: `url(${process.env.PUBLIC_URL}/burger.jpeg)`,
-    backgroundRepeat: 'no-repeat'
-}}>
-  {}
-</div>
+            <div >
+                <img id="bug" src={process.env.PUBLIC_URL+"images/bug.png"} alt="" />
+            </div>
+            <div id="cont4">
+                <img className="bug" src={process.env.PUBLIC_URL+"images/bug2.png"} alt="" />
+                <img className="bug"  src={process.env.PUBLIC_URL+"images/bug3.png"} alt="" />
+            </div>
 
             </div>
             {/* ******************* */}

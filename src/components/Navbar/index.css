@@ -146,9 +146,21 @@ list-style: none;
 .font{
     display: flex;
 }
+.container3{
+    display: flex;
+    margin-left: 20%;
+    gap: 4%;
+}
+#cont4{
+    display: grid;
+    
 
-/* #cont4{
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/image.png'})`,
-    backgroundRepeat: 'no-repeat';
-   
-} */
+}
+#bug{
+    width: 600px;
+    height: 500px;
+}
+.bug{
+    width: 250px;
+    height: 200px;
+}
