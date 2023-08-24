@@ -58,7 +58,7 @@ const Body =()=>{
                 </div>
             </div>
             {/*  */}
-            <div>
+            <div id="conti">
                 <div className="cont1">
                     <h1>Best <span>Delivered</span><br/>Categories  </h1>
                     <p>Here Are Some Of Our Best Distributed <br />Categories . If You Want You Can Order <br />From Here</p>
@@ -84,16 +84,22 @@ const Body =()=>{
                 </div>
             </div>
             <div>
-                <h1>Our <span>Regular</span> Menu</h1>
+                <div id="conti">
+                <h1 >Our <span>Regular</span> Menu</h1>
                 <div className="cont1">
                     <p>These Are Our Regular menus. You Can <br />Order Anything You Like</p>
                     <button id="btn">See All</button>
                 </div>
+                </div>
                 {/*  */}
                 <div className="cont1">
-                    
+                    {/* *************** */}
+                    <div className="food">
+                
                     <div id="cont3">
+                    <div className="div">
                     <img src={process.env.PUBLIC_URL+"images/img1.png"} />
+                    </div>
                     <div className="cont3">
                     <h4>Chicken Burger</h4>
                     <div className="icon"> 
@@ -103,10 +109,15 @@ const Body =()=>{
                     <p>$3.50 <button id="btn">Buy Now</button></p>
                     </div>
                     </div>
+                    </div>
+{/* ********************************** */}
                    
                     {/*  */}
+                    <div className="food">
                     <div id="cont3">
+                    <div className="div"> 
                     <img src={process.env.PUBLIC_URL+"images/chicken.png"} />
+                    </div>
                     <div className="cont3">
                     <h4>Chicken Pizza</h4>  
                     <div className="icon"> 
@@ -116,9 +127,13 @@ const Body =()=>{
                     <p>$4.20 <button id="btn">Buy Now</button></p>
                     </div>
                     </div>
-                    {/*  */}
+                    </div>
+                    {/* ********************* */}
+                    <div className="food">
                     <div id="cont3">
+                    <div className="div"> 
                     <img src={process.env.PUBLIC_URL+"images/Fry.png"} />
+                    </div>
                     <div className="cont3">
                     <h4>Chicken Pizza</h4>  
                     <div className="icon"> 
@@ -129,13 +144,17 @@ const Body =()=>{
                     </div>
 
                     </div>
+                    </div>
                 </div>
                 {/* ******** */}
 
                 <div className="cont1">
-                    
+                    <div className="food">
+                     
                     <div id="cont3">
+                    <div className="div">  
                     <img src={process.env.PUBLIC_URL+"images/Grill.png"} />
+                    </div>
                     <div className="cont3">
                     <h4>Grill Sandwich</h4>
                     <div className="icon"> 
@@ -145,11 +164,17 @@ const Body =()=>{
                     <p>$4.80 <button id="btn">Buy Now</button></p>
                     </div>
                     </div>
+                    </div>
                    
                     {/*  */}
+                    <div className="food">
+                    
                     <div id="cont3">
-                    <img src={process.env.PUBLIC_URL+"images/Taco.png"} />
+
                     <div className="cont3">
+                    <div className="div">  
+                    <img src={process.env.PUBLIC_URL+"images/Taco.png"} />
+                    </div>
                     <h4>Taco Traifi</h4>  
                     <div className="icon"> 
                     <img id="star" src={process.env.PUBLIC_URL+"images/star.png"} />
@@ -158,9 +183,14 @@ const Body =()=>{
                     <p>$3.63 <button id="btn">Buy Now</button></p>
                     </div>
                     </div>
+                    </div>
                     {/*  */}
+                    <div className="food">
+                    
                     <div id="cont3">
+                    <div className="div">  
                     <img src={process.env.PUBLIC_URL+"images/Fry.png"} />
+                    </div>
                     <div className="cont3">
                     <h4>Noodie's Ramen</h4>  
                     <div className="icon"> 
@@ -171,6 +201,7 @@ const Body =()=>{
                     </div>
 
                     </div>
+                </div>
                 </div>
             </div>
             {/*  */}

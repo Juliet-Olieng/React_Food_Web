@@ -2,7 +2,7 @@ import './index.css'
 const Navbar =()=>{
 return(
     <div className='navbar'>
-        <h2>Foodie</h2>
+        <h2 className='logo'>Foodie</h2>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Offer</a></li>
